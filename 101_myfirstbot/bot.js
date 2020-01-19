@@ -29,4 +29,8 @@ bot.hears("cat", ctx => {
   ctx.reply("Meow")
 })
 
+bot.on("text", ctx => {
+  ctx.reply("This is a text message")
+})
+
 bot.launch()
